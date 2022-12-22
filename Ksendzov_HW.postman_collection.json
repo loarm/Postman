@@ -1,0 +1,594 @@
+{
+	"info": {
+		"_postman_id": "d7bd6c77-2f6c-4b0d-8871-9b2d6fd2d71a",
+		"name": "Ksendzov_HW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19128768"
+	},
+	"item": [
+		{
+			"name": "HW_1",
+			"item": [
+				{
+					"name": "EP1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/get_method?name=Love&age=26",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"get_method"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Love"
+								},
+								{
+									"key": "age",
+									"value": "26"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Love",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "23",
+									"type": "text"
+								},
+								{
+									"key": "salary",
+									"value": "100000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/user_info_3",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"user_info_3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_1?name=Love&age=23&weight=58",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_1"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Love"
+								},
+								{
+									"key": "age",
+									"value": "23"
+								},
+								{
+									"key": "weight",
+									"value": "58"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP4",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_2?name=Love&age=23&salary=100000",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_2"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Love"
+								},
+								{
+									"key": "age",
+									"value": "23"
+								},
+								{
+									"key": "salary",
+									"value": "100000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_3?name=Love&age=23&salary=100000",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_3"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Love"
+								},
+								{
+									"key": "age",
+									"value": "23"
+								},
+								{
+									"key": "salary",
+									"value": "100000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_4?name=Love&age=23&salary=100000",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_4"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Love"
+								},
+								{
+									"key": "age",
+									"value": "23"
+								},
+								{
+									"key": "salary",
+									"value": "100000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EP7",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Love",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "23",
+									"type": "text"
+								},
+								{
+									"key": "salary",
+									"value": "100000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/user_info_2",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"user_info_2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "HW2",
+			"item": [
+				{
+					"name": "check_correct_response",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Body matches string\", function () {\r",
+									"    pm.expect(pm.response.text()).to.eql(\"This is the first responce from server!ss\");\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://162.55.220.72:5005/first",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"first"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "check_correct_userinfo",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Спарсить response body в json.\r",
+									"const responseData = pm.response.json();\r",
+									"\r",
+									"// Проверить, что name в ответе равно name s request (name вбить руками.)\r",
+									"pm.test('Check name is equal \"tester\"', function() {\r",
+									"    pm.expect(responseData.name).to.be.eql('tester');\r",
+									"})\r",
+									"\r",
+									"// Проверить, что age в ответе равно age s request (age вбить руками.)\r",
+									"pm.test('Check age is equal 25', function(){\r",
+									"    pm.expect(+responseData.age).to.be.equal(25)\r",
+									"});\r",
+									"\r",
+									"// Проверить, что salary в ответе равно salary s request (salary вбить руками.)\r",
+									"pm.test('Check salary is equal 10000', function() {\r",
+									"    pm.expect(+responseData.salary).to.be.equal(10000)\r",
+									"});\r",
+									"\r",
+									"// Спарсить request.\r",
+									"const requestData = request.data;\r",
+									"console.log(requestData);\r",
+									"\r",
+									"// Проверить, что name в ответе равно name s request (name забрать из request.)\r",
+									"pm.test('Check name from request is equal name from response', function() {\r",
+									"    pm.expect(requestData.name).to.be.eql(responseData.name)\r",
+									"});\r",
+									"\r",
+									"// 9. Проверить, что age в ответе равно age s request (age забрать из request.)\r",
+									"pm.test('Check age from request is equal age from response', function() {\r",
+									"    pm.expect(+requestData.age).to.be.eql(+responseData.age)\r",
+									"});\r",
+									"\r",
+									"// Проверить, что salary в ответе равно salary s request (salary забрать из request.)\r",
+									"pm.test('Check salary from request is equal salary from response', function() {\r",
+									"    pm.expect(+requestData.salary).to.be.eql(responseData.salary)\r",
+									"});\r",
+									"\r",
+									"// Вывести в консоль параметр family из response.\r",
+									"console.log(responseData.family);\r",
+									"\r",
+									"\r",
+									"// 12. Проверить что u_salary_1_5_year в ответе равно salary*4 (salary забрать из request)\r",
+									"pm.test('Check u_salary_1_5_year from response is equal (salary*4) from request', function(){\r",
+									"    pm.expect(responseData.family.u_salary_1_5_year).to.be.eql(+requestData.salary*4)\r",
+									"})\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "tester",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "25",
+									"type": "text"
+								},
+								{
+									"key": "salary",
+									"value": "10000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/user_info_3",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"user_info_3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "check_correct_objectinfo_3",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// Статус код 200\r",
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"\r",
+									"// Спарсить response body в json.\r",
+									"const responseData = pm.response.json();\r",
+									"\r",
+									"// Спарсить request.\r",
+									"const requestData = request.data;\r",
+									"console.log(requestData);\r",
+									"// 5. Проверить, что name в ответе равно name s request (name забрать из request.)\r",
+									"// 6. Проверить, что age в ответе равно age s request (age забрать из request.)\r",
+									"// 7. Проверить, что salary в ответе равно salary s request (salary забрать из request.)\r",
+									"// 8. Вывести в консоль параметр family из response.\r",
+									"// 9. Проверить, что у параметра dog есть параметры name.\r",
+									"// 10. Проверить, что у параметра dog есть параметры age.\r",
+									"// 11. Проверить, что параметр name имеет значение Luky.\r",
+									"// 12. Проверить, что параметр age имеет значение 4."
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_3?name=Lucky&age=25&salary=10000",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_3"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Lucky"
+								},
+								{
+									"key": "age",
+									"value": "25",
+									"description": "\n"
+								},
+								{
+									"key": "salary",
+									"value": "10000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "check_correct_objectinfo_4",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"// 2. Статус код 200\r",
+									"// 3. Спарсить response body в json.\r",
+									"// 4. Спарсить request.\r",
+									"// 5. Проверить, что name в ответе равно name s request (name забрать из request.)\r",
+									"// 6. Проверить, что age в ответе равно age из request (age забрать из request.)\r",
+									"// 7. Вывести в консоль параметр salary из request.\r",
+									"// 8. Вывести в консоль параметр salary из response.\r",
+									"// 9. Вывести в консоль 0-й элемент параметра salary из response.\r",
+									"// 10. Вывести в консоль 1-й элемент параметра salary параметр salary из response.\r",
+									"// 11. Вывести в консоль 2-й элемент параметра salary параметр salary из response.\r",
+									"// 12. Проверить, что 0-й элемент параметра salary равен salary из request (salary забрать из request.)\r",
+									"// 13. Проверить, что 1-й элемент параметра salary равен salary*2 из request (salary забрать из request.)\r",
+									"// 14. Проверить, что 2-й элемент параметра salary равен salary*3 из request (salary забрать из request.)\r",
+									"// 15. Создать в окружении переменную name\r",
+									"// 16. Создать в окружении переменную age\r",
+									"// 17. Создать в окружении переменную salary\r",
+									"// 18. Передать в окружение переменную name\r",
+									"// 19. Передать в окружение переменную age\r",
+									"// 20. Передать в окружение переменную salary\r",
+									"// 21. Написать цикл который выведет в консоль по порядку элементы списка из параметра salary."
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "tester",
+									"type": "text"
+								},
+								{
+									"key": "age",
+									"value": "25",
+									"type": "text"
+								},
+								{
+									"key": "salary",
+									"value": "10000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://162.55.220.72:5005/object_info_4",
+							"protocol": "http",
+							"host": [
+								"162",
+								"55",
+								"220",
+								"72"
+							],
+							"port": "5005",
+							"path": [
+								"object_info_4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
