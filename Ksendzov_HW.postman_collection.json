@@ -576,7 +576,6 @@
 									"\r",
 									"// Вывести в консоль параметр salary из response.\r",
 									"console.log(responseData.salary)\r",
-									"console.log(responseData)\r",
 									"\r",
 									"// Вывести в консоль 0-й элемент параметра salary из response.\r",
 									"console.log(responseData.salary[0])\r",
